@@ -7,11 +7,11 @@ export function TopBar() {
                 {/* Left Side: Contact */}
                 <div className="flex items-center gap-6 md:gap-8">
                     <a
-                        href="tel:+96566419241"
+                        href="tel:66045142"
                         className="flex items-center gap-2 hover:text-[#ef9019] transition-colors group"
                     >
                         <Phone className="h-4 w-4 text-[#ef9019] group-hover:scale-110 transition-transform" />
-                        <span className="opacity-90 group-hover:opacity-100">+965 6641 9241</span>
+                        <span className="opacity-90 group-hover:opacity-100">+965 66045142</span>
                     </a>
                     <a
                         href="mailto:info@cggkwt.com"
@@ -26,7 +26,7 @@ export function TopBar() {
                 <div className="flex items-center gap-6 md:gap-8">
                     <div className="flex items-center gap-2 group cursor-default">
                         <Award className="h-4 w-4 text-[#ef9019]" />
-                        <span className="opacity-90">ISO 9001:2015 Certified</span>
+                        <span className="opacity-90">Quality | Trust | Excellence</span>
                     </div>
                     <div className="hidden sm:flex items-center gap-2 border-l border-white/10 pl-6 h-4 group cursor-default">
                         <Clock className="h-4 w-4 text-[#ef9019]" />

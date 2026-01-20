@@ -13,7 +13,6 @@ import Contracting from "./pages/services/Contracting";
 import Projects from "./pages/Projects";
 import Clients from "./pages/Clients";
 import Safety from "./pages/Safety";
-import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -36,7 +35,6 @@ const App = () => (
             <Route path="/projects" element={<Projects />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/safety" element={<Safety />} />
-            <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

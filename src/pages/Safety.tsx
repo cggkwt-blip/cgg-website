@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { SEO } from "@/components/layout/SEO";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { Shield, Award, CheckCircle, AlertTriangle } from "lucide-react";
+import { Shield, CheckCircle, AlertTriangle } from "lucide-react";
 
 const safetyStats = [
   { number: "0", label: "Major Incidents", description: "Zero major safety incidents since inception" },
@@ -9,12 +9,7 @@ const safetyStats = [
   { number: "500+", label: "Safety Trainings", description: "Employees trained in safety protocols annually" },
 ];
 
-const certifications = [
-  "ISO 9001:2015 Quality Management",
-  "ISO 14001:2015 Environmental Management",
-  "ISO 45001:2018 Occupational Health & Safety",
-  "OHSAS 18001 Safety Management",
-];
+
 
 const SafetyPage = () => {
   return (
@@ -81,26 +76,7 @@ const SafetyPage = () => {
         </div>
       </section>
 
-      {/* Certifications */}
-      <section className="section-padding bg-muted">
-        <div className="container-cgg">
-          <SectionHeader
-            label="Standards"
-            title="Certifications & Compliance"
-            centered
-          />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {certifications.map((cert, index) => (
-              <div key={index} className="bg-card p-6 rounded-xl text-center shadow-md">
-                <div className="w-12 h-12 bg-cgg-blue rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Award className="h-6 w-6 text-primary-foreground" />
-                </div>
-                <p className="font-medium text-foreground text-sm">{cert}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Quality Assurance */}
       <section className="section-padding bg-cgg-blue">

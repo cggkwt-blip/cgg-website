@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram } from "lucide-react";
 
 const footerLinks = {
   services: [
@@ -14,7 +14,6 @@ const footerLinks = {
     { name: "Safety & Quality", path: "/safety" },
   ],
   resources: [
-    { name: "News & Insights", path: "/news" },
     { name: "Contact Us", path: "/contact" },
     { name: "Careers", path: "/careers" },
   ],
@@ -42,21 +41,31 @@ export function Footer() {
               A trusted and client-focused service provider in Kuwait with over 19 years
               of industry experience across Oil & Gas, Healthcare, and Contracting sectors.
             </p>
-            <div className="pt-4 border-t border-white/10">
-              <span className="inline-block text-white/60 font-semibold text-xs tracking-wider uppercase">
-                ISO 9001:2015 • ISO 14001:2015 • ISO 45001:2018
-              </span>
-            </div>
-            <div className="flex gap-3 pt-2">
-              {[Linkedin, Twitter, Facebook].map((Icon, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className="p-3 bg-white/10 rounded-xl hover:bg-cgg-orange transition-all hover:scale-110 border border-white/5"
-                >
-                  <Icon className="h-5 w-5 text-white" />
-                </a>
-              ))}
+            <div className="flex gap-3 pt-6">
+              <a
+                href="https://facebook.com/cggkwt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/10 rounded-xl hover:bg-cgg-orange transition-all hover:scale-110 border border-white/5"
+              >
+                <Facebook className="h-5 w-5 text-white" />
+              </a>
+              <a
+                href="https://www.instagram.com/cgg.kwt/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/10 rounded-xl hover:bg-cgg-orange transition-all hover:scale-110 border border-white/5"
+              >
+                <Instagram className="h-5 w-5 text-white" />
+              </a>
+              <a
+                href="https://linkedin.com/cggkwt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/10 rounded-xl hover:bg-cgg-orange transition-all hover:scale-110 border border-white/5"
+              >
+                <Linkedin className="h-5 w-5 text-white" />
+              </a>
             </div>
           </div>
 
@@ -105,8 +114,8 @@ export function Footer() {
                   <MapPin className="h-6 w-6 text-cgg-orange" />
                 </div>
                 <span className="text-base text-white/90 leading-relaxed font-medium">
-                  Kuwait City, Kuwait<br />
-                  P.O. Box 12345
+                  Fahaheel, Complex 6659,<br />
+                  Floor 1, Office 3
                 </span>
               </li>
               <li className="flex items-center gap-4 group">
@@ -114,10 +123,10 @@ export function Footer() {
                   <Phone className="h-6 w-6 text-cgg-orange" />
                 </div>
                 <a
-                  href="tel:+96512345678"
+                  href="tel:66045142"
                   className="text-base text-white/90 hover:text-cgg-orange transition-colors font-medium"
                 >
-                  +965 1234 5678
+                  66045142
                 </a>
               </li>
               <li className="flex items-center gap-4 group">
@@ -125,10 +134,10 @@ export function Footer() {
                   <Mail className="h-6 w-6 text-cgg-orange" />
                 </div>
                 <a
-                  href="mailto:info@cgg-kuwait.com"
+                  href="mailto:info@cggkwt.com"
                   className="text-base text-white/90 hover:text-cgg-orange transition-colors font-medium"
                 >
-                  info@cgg-kuwait.com
+                  info@cggkwt.com
                 </a>
               </li>
             </ul>

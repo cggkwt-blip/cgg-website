@@ -70,8 +70,8 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Office Address</h3>
                       <p className="text-muted-foreground">
-                        Kuwait City, Kuwait<br />
-                        P.O. Box 12345, Safat 13001
+                        Fahaheel, Complex 6659,<br />
+                        Floor 1, Office 3
                       </p>
                     </div>
                   </div>
@@ -81,8 +81,8 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <a href="tel:+96512345678" className="text-muted-foreground hover:text-cgg-orange transition-colors">
-                        +965 1234 5678
+                      <a href="tel:66045142" className="text-muted-foreground hover:text-cgg-orange transition-colors">
+                        66045142
                       </a>
                     </div>
                   </div>
@@ -92,8 +92,8 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                      <a href="mailto:info@cgg-kuwait.com" className="text-muted-foreground hover:text-cgg-orange transition-colors">
-                        info@cgg-kuwait.com
+                      <a href="mailto:info@cggkwt.com" className="text-muted-foreground hover:text-cgg-orange transition-colors">
+                        info@cggkwt.com
                       </a>
                     </div>
                   </div>
@@ -104,20 +104,26 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
                       <p className="text-muted-foreground">
-                        Sunday - Thursday<br />
-                        8:00 AM - 5:00 PM
+                        Saturday - Thursday<br />
+                        9:00 AM - 5:00 PM
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="bg-muted rounded-2xl h-64 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-2" />
-                  <p className="text-muted-foreground">Map Location</p>
-                </div>
+              {/* Map Embed */}
+              <div className="bg-muted rounded-2xl h-64 overflow-hidden shadow-md">
+                <iframe
+                  src="https://maps.google.com/maps?q=29.08001248440191,48.1349588665626&hl=en&z=14&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="CGG Office Location"
+                ></iframe>
               </div>
             </div>
 

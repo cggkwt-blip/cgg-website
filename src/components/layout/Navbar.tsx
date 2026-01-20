@@ -18,7 +18,6 @@ const navItems = [
   { name: "Projects", path: "/projects" },
   { name: "Clients & Partners", path: "/clients" },
   { name: "Safety & Quality", path: "/safety" },
-  { name: "News & Insights", path: "/news" },
   { name: "Contact Us", path: "/contact" },
 ];
 

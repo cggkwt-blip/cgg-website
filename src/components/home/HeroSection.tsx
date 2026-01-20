@@ -59,17 +59,7 @@ export function HeroSection() {
             </Link>
           </div>
 
-          {/* Trust Indicators */}
-          <div className="mt-16 pt-10 border-t border-white/15 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-            <p className="text-sm text-white/50 mb-5 uppercase tracking-wider font-semibold">Trusted by Leading Organizations</p>
-            <div className="flex flex-wrap items-center gap-10">
-              {["KPC", "KNPC", "KOC", "MOH Kuwait"].map((org) => (
-                <div key={org} className="text-white/70 font-bold text-lg tracking-wide hover:text-cgg-orange transition-colors cursor-default">
-                  {org}
-                </div>
-              ))}
-            </div>
-          </div>
+
         </div>
 
         {/* Empty Right Column for Balance/Image Visibility */}
