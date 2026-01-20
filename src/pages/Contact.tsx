@@ -81,9 +81,15 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <a href="tel:66045142" className="text-muted-foreground hover:text-cgg-orange transition-colors">
-                        66045142
-                      </a>
+                      <div className="flex flex-wrap gap-2 text-muted-foreground">
+                        <a href="tel:66045142" className="hover:text-cgg-orange transition-colors">66045142</a>
+                        <span>|</span>
+                        <a href="tel:94465484" className="hover:text-cgg-orange transition-colors">94465484</a>
+                        <span>|</span>
+                        <a href="tel:97687848" className="hover:text-cgg-orange transition-colors">97687848</a>
+                        <span>|</span>
+                        <a href="tel:97734323" className="hover:text-cgg-orange transition-colors">97734323</a>
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

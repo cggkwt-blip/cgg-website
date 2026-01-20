@@ -124,9 +124,12 @@ export function Footer() {
                 </div>
                 <a
                   href="tel:66045142"
-                  className="text-base text-white/90 hover:text-cgg-orange transition-colors font-medium"
+                  className="text-base text-white/90 hover:text-cgg-orange transition-colors font-medium flex flex-wrap gap-2"
                 >
-                  66045142
+                  <span>66045142</span>
+                  <span>| <a href="tel:94465484" className="hover:text-cgg-orange transition-colors">94465484</a></span>
+                  <span>| <a href="tel:97687848" className="hover:text-cgg-orange transition-colors">97687848</a></span>
+                  <span>| <a href="tel:97734323" className="hover:text-cgg-orange transition-colors">97734323</a></span>
                 </a>
               </li>
               <li className="flex items-center gap-4 group">

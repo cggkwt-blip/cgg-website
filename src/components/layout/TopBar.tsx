@@ -11,7 +11,12 @@ export function TopBar() {
                         className="flex items-center gap-2 hover:text-[#ef9019] transition-colors group"
                     >
                         <Phone className="h-4 w-4 text-[#ef9019] group-hover:scale-110 transition-transform" />
-                        <span className="opacity-90 group-hover:opacity-100">+965 66045142</span>
+                        <span className="opacity-90 group-hover:opacity-100 flex gap-2">
+                            <span>+965 66045142</span>
+                            <span>| <a href="tel:94465484" className="hover:text-[#ef9019] transition-colors">94465484</a></span>
+                            <span>| <a href="tel:97687848" className="hover:text-[#ef9019] transition-colors">97687848</a></span>
+                            <span>| <a href="tel:97734323" className="hover:text-[#ef9019] transition-colors">97734323</a></span>
+                        </span>
                     </a>
                     <a
                         href="mailto:info@cggkwt.com"
